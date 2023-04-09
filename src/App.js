@@ -5,7 +5,8 @@ import Services from "./Components/Services/Services"
 import Experience from "./Components/Experience/Experience";
 // import Works from "./Components/Works/Works";
 import Contact from "./Components/Contact/Contact";
-// import Portfolio from "./Components/Portfolio/Portfolio";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import * as Unicons from '@iconscout/react-unicons';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ function App() {
       <Services/>
       <Experience/>
       {/* <Works/> */}
-      {/* <Portfolio/> */}
+      <Portfolio/>
       <Contact/>
     </div>
   );

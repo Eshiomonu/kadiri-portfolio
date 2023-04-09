@@ -1,5 +1,9 @@
 import React from 'react'
 import './Portfolio.css'
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
 import Sidebar from "../../img/sidebar.png"
 import Ecommerce from "../../img/ecommerce.png"
 import MusicApp from "../../img/musicapp.png"
@@ -10,20 +14,26 @@ const Portfolio = () => {
     <div className="portfolio">
       <span>Recent Project</span>
       <span>Portfolio</span>
-    <div className="parent-slider">
-    <div className="slider">
+    <Swiper 
+       spaceBetween={30}
+       slidesPerView={3}
+       grabCursor={true}
+       className='portfolio-slider'
+    >
+      
+    <SwiperSlide>
         <img src={Sidebar} alt="" srcset="" />
-      </div>
-      <div className="slider">
+      </SwiperSlide>
+      <SwiperSlide >
         <img src={Ecommerce} alt="" srcset="" />
-      </div>
-      <div className="slider">
+      </SwiperSlide>
+      <SwiperSlide>
         <img src={MusicApp} alt="" srcset="" />
-      </div>
-      <div className="slider">
+      </SwiperSlide>
+      <SwiperSlide>
         <img src={Hoc} alt="" srcset="" />
-      </div>
-    </div>
+      </SwiperSlide>
+    </Swiper>
      
     </div>
   )
