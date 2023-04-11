@@ -4,10 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import Sidebar from "../../img/sidebar.png"
-import Ecommerce from "../../img/ecommerce.png"
-import MusicApp from "../../img/musicapp.png"
-import Hoc from "../../img/hoc.png"
+import Pinnacle from "../../img/pinnacle_events.PNG"
+import Royal from "../../img/royalolive.PNG"
+import Zero from "../../img/zero_harm.PNG"
+import Azam from "../../img/azamtv.PNG"
 
 const Portfolio = () => {
   return (
@@ -22,16 +22,16 @@ const Portfolio = () => {
     >
       
     <SwiperSlide>
-        <img src={Sidebar} alt="" srcset="" />
+        <img src={Pinnacle} alt="" srcset="" />
       </SwiperSlide>
       <SwiperSlide >
-        <img src={Ecommerce} alt="" srcset="" />
+        <img src={Royal} alt="" srcset="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={MusicApp} alt="" srcset="" />
+        <img src={Zero} alt="" srcset="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Hoc} alt="" srcset="" />
+        <img src={Azam} alt="" srcset="" />
       </SwiperSlide>
     </Swiper>
      

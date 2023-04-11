@@ -12,7 +12,7 @@ const Services = () => {
       <div className="service-left">
         <span>My Awesome</span>
         <span>Skills</span>
-        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br/>Debitis aspernatur optio molestiae sed vero illum accusantium quia, nobis suscipit sit.</span> 
+        {/* <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br/>Debitis aspernatur optio molestiae sed vero illum accusantium quia, nobis suscipit sit.</span>  */}
         <a href={Resume} download>
         <button className="button s-button"> Download Cv</button>
 
@@ -33,7 +33,7 @@ const Services = () => {
           <Card
           emoji = {Glasses}
           heading = {'Developer'}
-          details = {"HTML, CSS,JavaScript, VueJs, ReactJs, TailwindCss, Firebase, NodeJs"}
+          details = {"JavaScript, VueJs, ReactJs, PHP, WordPress Firebase, NodeJs"}
           />
           
         </div>
